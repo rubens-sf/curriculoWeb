@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link  rel="stylesheet" href="css/estilo-basico.css">
+        <meta charset="UTF-8" >
+        <script src="js/jsConstrutor.js"></script>
+        <link rel="stylesheet" href="css/estilo-basico.css">
         <title>Bem vindo ao CurrículoWeb!</title>
     </head>
     <body>
-        <div id="container" class="div-principal"  >
+        <div id="container" class="div-principal" >
             <div id="cabecalho-secao-dadosPessoais" class="cabecalho-secao">
-                <p>Dados Pessoais</p>
+                <p id="titulo-secao">Dados Pessoais</p>
+                <p id="info-nome-pessoa" onclick="alteraParaInput(event);">Insira seu nome aqui!</p>
+                <p id="info-endereco-pessoa"></p>
             </div>
             <div id="cabecalho-secao-dadosProfissionais" class="cabecalho-secao">
-                <p>Dados Profissionais</p>
+                <p id="titulo-secao">Dados Profissionais</p>
+                <p id="info-numero-experiencias"></p>
             </div>
         </div>
     </body>
